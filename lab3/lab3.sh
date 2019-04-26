@@ -9,6 +9,7 @@ find /bin/ /sbin/ /usr/bin/ /usr/sbin/ -perm /4000 -user root
 
 echo '2. Find all files across the system that have setuid or setgid enabled (regardless of owner).'
 read -p "Hit any key to continue."
+echo find / perm /6000 2>dev/null
 find / -perm /6000 2>/dev/null
 
 echo '3. Find all files in /var that have changed in the last 20 minutes.'
