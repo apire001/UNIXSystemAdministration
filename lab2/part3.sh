@@ -1,7 +1,7 @@
 #!/bin/bash
 log=$(find /home/andy/lab2 -name 'uptime.*')
 if [ -e "$log" ]; then
-    awk 'NF>1{print $NF}' uptime.log > temp.txt
+    awk 'NF>1{print $NF}' /home/andy/lab2/uptime.log > temp.txt
     line=$(cat temp.txt | wc -l)
     lastword=$(sed -n ${line}p < temp.txt)
     rm temp.txt
