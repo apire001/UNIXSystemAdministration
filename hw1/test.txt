@@ -1,6 +1,0 @@
-#Andrew Pirelli
-#SID#861223915
-#HW1 Test File
-
-This is a test file.
-Used for testing hw1.
