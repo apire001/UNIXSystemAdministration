@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*- 
 
-#To run use python gateway.py or ./gateway.py
+#To run use python netmask.py <cidr> or ./netmask.py <cidr>
 
 import sys
 import re
