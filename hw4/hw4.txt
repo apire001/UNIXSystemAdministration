@@ -1,0 +1,8 @@
+Class A network since first octet is in range 1-126
+
+Since it is class A the netmask should be
+CIDR: /8
+Base 10: 255.0.0.0
+
+Gateway IP address: 10.3.12.1
+Broadcast address: 10.3.12.255
