@@ -64,5 +64,5 @@ for line in fi:
 netmask = generateNetmask(tCIDR)
 
 print("gateway: " + dIP + " netmask: " + netmask + " device: " + device)
-    
+fi.close()
 os.system("rm temp.txt")
