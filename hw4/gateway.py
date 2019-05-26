@@ -36,7 +36,7 @@ def generateNetmask(tCIDR):
         i = i + 1
     return (str(int(ts[0:8], 2)) + "." + str(int(ts[8:16], 2)) + "." + str(int(ts[16:24], 2)) + "." + str(int(ts[24:32], 2)))
 
-#os.system("ip route show default > temp.txt")
+os.system("ip route show default > temp.txt")
 
 fi = open("temp.txt", "r")
 
@@ -65,4 +65,4 @@ netmask = generateNetmask(tCIDR)
 
 print("gateway: " + dIP + " netmask: " + netmask + " device: " + device)
     
-#os.system("rm temp.txt")
+os.system("rm temp.txt")
