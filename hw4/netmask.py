@@ -70,5 +70,5 @@ for line in fi:
 netmask = generateNetmask(target)
 
 print("addresses: " + str(addrCnt) + " usable: " + str(useCnt) + " netmask: " + netmask)
-    
+fi.close()
 os.system("rm temp.txt")
